@@ -1,0 +1,18 @@
+
+:root{--white-color:#fff;  --black-color:#111; --black50-color: #35dda5; --red-color:#e00707; --blue-color:#5843cf; --padding16:16px; padding: 12px;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.header{display: flex; justify-content: space-between; width: 100%; background: var(--black-color); color: var(--white-color); padding: var(--padding); box-sizing: border-box;}
+.logo{font-size: 18px;}
+.logo .fa-youtube{color: var(--red-color);}
+.icon .fa-serch{padding-right: var(--padding);}
+
+.player{text-align: center;background: #000;position: sticky;top: 0; }
+.player video{width: 100%; height: 100%; max-width: 1000px;}
+
+.info-upnext-wrap{display: flex;}
+.info-upnext-wrap .info{width: 60%; height: 500px; background: red;}
+.info-upnext-wrap .upnext{width: 40%; height: 500px; background: rgb(70, 52, 52);}
+
+@media and (max-width: 780px){
+    
+}
